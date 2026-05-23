@@ -1,14 +1,14 @@
 import { useCoins } from "../hooks/useCoins"
 import CoinsTable from "../components/CoinsTable"
 
-const CoinsPage = () => {
+const Coins = () => {
     const { data, isLoading } = useCoins()
-
+  
     return (
         <div>
-           <CoinsTable data={data} loading={isLoading}/>
+            <CoinsTable data={data} loading={isLoading}  />
         </div>
     )
 }
 
-export default CoinsPage
+export default Coins

@@ -59,7 +59,11 @@ const CoinsTable = ({data,loading}) => {
   
     return (
         <div>
-          <Table columns={columns} dataSource={data} loading={loading} rowKey='id' scroll={{y:500}}/>
+          <Table columns={columns} dataSource={data} 
+          loading={loading} 
+          rowKey='id' 
+          scroll={{y:500}} 
+          pagination={false}/>
         </div>
     )
 }
