@@ -1,0 +1,5 @@
+export { default as Home } from './Home'
+export { default as CoinsPage } from './Coins'
+export { default as CoinsPaged } from './CoinsPaged'
+export { default as Chart } from './Chart'
+export { default as Wizard } from './Wizard'
